@@ -26,7 +26,7 @@ public class Pharmacy_Superadmin extends StartBrowser
 	
 	//Add Admin in SuperAdmin
 	
-	//@Test(priority = 0 ,description="Register Test")
+	@Test(priority = 0 ,description="Register Test")
 	
 	public void PharmacyLoginTestcase() throws Exception {
 		CommonFuns hm = new CommonFuns();
@@ -48,7 +48,7 @@ public class Pharmacy_Superadmin extends StartBrowser
 		
 	//Add Location 
 	
-		//@Test(priority = 1 ,description="Register Test")
+		@Test(priority = 1 ,description="Register Test")
 		
 		public void PharmacyLoginTestcase1() throws Exception {
 			CommonFuns hm1 = new CommonFuns();
@@ -83,7 +83,7 @@ public class Pharmacy_Superadmin extends StartBrowser
         
 		//Add User in Admin	
         
-			//@Test(priority = 3 ,description="Register Test")
+			@Test(priority = 3 ,description="Register Test")
 			
 			public void PharmacyLoginTestcase3() throws Exception {
 				CommonFuns hm2 = new CommonFuns();
