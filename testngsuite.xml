@@ -4,7 +4,7 @@
 
 	<listeners>
 		<listener class-name="com.Mohs10.utility.ListenerClass" />
-		<listener class-name="com.Mohs10.utility.TestallureListener" />
+		<!-- <listener class-name="com.Mohs10.utility.TestallureListener" /> -->
 	</listeners>
 
 	<test name="Test_All">
@@ -12,8 +12,10 @@
 
 		<classes>
 
+            
+
             <class name="com.Mohs10.TestScripts.Pharmacy_Superadmin" />
-		<class name="com.Mohs10.Reports.PDFReportTest" /> 
+		    <class name="com.Mohs10.Reports.PDFReportTest" /> 
 <!--			<class name="com.Mohs10.Dashboard.TablesTest" />-->
             
 		</classes>

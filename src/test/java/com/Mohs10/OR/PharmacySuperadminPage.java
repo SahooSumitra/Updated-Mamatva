@@ -7,24 +7,181 @@ public class PharmacySuperadminPage {
 	
 	//Login to the Mamatva Superadmin
 
-	public static By Memailid = By.xpath("//input[@id='email']");
-	public static By Mpwd = By.xpath("//input[@id='password']");
-	public static By Mloginbtn = By.xpath("//input[@value='LOGIN']");
+	    public static By Memailid = By.xpath("//input[@id='email']");
+	    public static By Mpwd = By.xpath("//input[@id='password']");
+	    public static By Mloginbtn = By.xpath("//input[@value='LOGIN']");
+	
+	
+	//Add Admin 
+	    
+		public static By AddAdmin = By.xpath("//a[@href='/superadmin/Addadmin']");
+		public static By Name = By.xpath("//input[@id='exampleInputUsername1']");
+		public static By Location = By.xpath("//select[@id='locationSelect']");
+		public static By emailid = By.xpath("//input[@id='exampleInputUsername3']");
+		public static By pwd= By.xpath("//input[@id='exampleInputPassword1']");
+		
+		public static By Scrolldown= By.xpath
+				("//body/div[@class='container-scroller']/div[@class='container-fluid page-body-wrapper']/div[@class='main-panel']/div[@class='content-wrapper']/div[3]/div[1]/div[1]");
+		
+		public static By checkbox = By.xpath("//input[@id='showPasswordCheckbox']");
+		public static By submitbtn= By.xpath("//button[@id='submitButton']");
+		
+		public static By Regsuccess = By.xpath("//button[@type='submit']");
+		public static By MLogout = By.xpath("//p[@class='mb-1 text-white']");
+		public static By MSignout = By.xpath("//a[@class='dropdown-item']");
+	
 	//Add Location
-	public static By AddLocation = By.xpath("//span[normalize-space()='Add Location']");
-	public static By Locationfill = By.xpath("//input[@id='Location']");
-	public static By submitbtn= By.xpath("//button[@type='submit']");     
-	//public static By Scrolldown= By.xpath
-				//("//body/div[@class='container-scroller']/div[@class='container-fluid page-body-wrapper']/div[@class='main-panel']/div[@class='content-wrapper']/div[3]/div[1]/div[1]");
-	//public static By Delete = By.xpath("//tbody/tr[11]/td[2]/span[1]/a[1]");
-	//public static By Dltoption = By.xpath("//button[normalize-space()='Delete']");
-	
-	public static By Confirmadd = By.xpath("//button[@type='submit']"); //button[@type='submit']
-	public static By MLogout = By.xpath("//p[@class='mb-1 text-white']");
-	public static By MSignout = By.xpath("//a[@class='dropdown-item']");
+		
+	    public static By AddLocation = By.xpath("//span[normalize-space()='Add Location']");
+	    public static By Locationfill = By.xpath("//input[@id='Location']");
+	    public static By submitbtn1= By.xpath("//button[@type='submit']");   
+	    public static By BcktoHome = By.xpath("//button[@type='submit']");
+	   
+	    public static By MLogout1 = By.xpath("//p[@class='mb-1 text-white']");
+	    public static By MSignout1 = By.xpath("//a[@class='dropdown-item']");
+	    
 	 
+	//Delete Location
+
+        public static By AddLoc = By.xpath("//span[normalize-space()='Add Location']");
+        public static By Scrolldown1 = By.xpath("//div[@class='content-wrapper']");
+        public static By Dltoption = By.xpath("//tbody/tr[26]/td[2]/span[1]/a[1]");
+        public static By Dltbutton = By.xpath("//button[normalize-space()='Delete']");
+        public static By BcktoHome1 = By.xpath("//button[@type='submit']");
+ 
+        public static By MLogout2 = By.xpath("//p[@class='mb-1 text-white']");
+	    public static By MSignout2 = By.xpath("//a[@class='dropdown-item']");
+
+
+     //Login to the Mamatva Admin
+
+         
+        public static By Memailid1 = By.xpath("//input[@id='email']");
+        public static By Mpwd1 = By.xpath("//input[@id='password']");
+        public static By Mloginbtn1 = By.xpath("//input[@value='LOGIN']");
+        
+        //Add User 
+        
+        public static By AddUser = By.xpath("//span[normalize-space()='Add User']");
+		public static By UserName = By.xpath("//input[@id='exampleInputUsername1']");
+		
+		public static By emailid1 = By.xpath("//input[@id='exampleInputUsername3']");
+		public static By pwd1= By.xpath("//input[@id='exampleInputPassword1']");
+		
 	
-	
+		public static By Scrolldown2= By.xpath("//div[@class='content-wrapper']");
+		public static By checkbox1 = By.xpath("//input[@id='showPasswordCheckbox']");
+		
+		public static By Role = By.xpath("//select[@id='RoleSelect']");
+		                                                                   
+		public static By submitbtn2= By.xpath("//button[@id='submitButton']");
+		
+		public static By BcktoHome2 = By.xpath("//button[@type='submit']");
+		 
+	    public static By MLogout3 = By.xpath("//p[@class='mb-1 text-white']");
+		public static By MSignout3 = By.xpath("//a[@class='dropdown-item']");
+		
+}
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//("//select[@id='RoleSelect']//a[@value='ROLE_CONSULTANT']");
+
+
+
+
+
+
+
+
+
+
+
+
+
+//public static By SelectRole = By.xpath("//select[@id='RoleSelect']//a[@value='ROLE_CONSULTANT']");
+
+
+
+
+
+
+
+
+
+                                   
+                                 
+                                   
+	    
+
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	   
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    //public static By Scrolldown= By.xpath
+	//("//body/div[@class='container-scroller']/div[@class='container-fluid page-body-wrapper']/div[@class='main-panel']/div[@class='content-wrapper']/div[3]/div[1]/div[1]");
+//public static By Delete = By.xpath("//tbody/tr[11]/td[2]/span[1]/a[1]");
+//public static By Dltoption = By.xpath("//button[normalize-space()='Delete']");
 	
 	
 	
@@ -34,38 +191,15 @@ public class PharmacySuperadminPage {
 	public static By Edituser = By.xpath("//tbody/tr[1]/td[4]/span[1]/a[1]");
 	//public static By dltuser = By.xpath("//div[@class='col-md-12 grid-margin stretch-card']//div[@class='card-body']");
 	public static By Username = By.xpath("//input[@id='exampleInputUsername1']");
-	public static By Scrolldown= By.xpath
+	public static By Scrolldown1= By.xpath
 			("//body/div[@class='container-scroller']/div[@class='container-fluid page-body-wrapper']/div[@class='main-panel']/div[@class='content-wrapper']/div[3]/div[1]/div[1]");
 	public static By Submitbtn = By.xpath("//button[@type='submit']");*/
-	//Add Location
-	/*public static By AddLocation = By.xpath("//a[@href='/superadmin/Addlocation']");
-	public static By Locationfill = By.xpath("//input[@id='Location']");
-	public static By submitbtn= By.xpath("//button[@type='submit']");
-	public static By Scrolldown= By.xpath
-			("//body/div[@class='container-scroller']/div[@class='container-fluid page-body-wrapper']/div[@class='main-panel']/div[@class='content-wrapper']/div[3]/div[1]/div[1]");
-	
-	public static By MLogout = By.xpath("//p[@class='mb-1 text-white']");
-	public static By MSignout = By.xpath("//a[@class='dropdown-item']");*/
 	
 	
 	
 	
-	//Add Admin
-	/*public static By AddAdmin = By.xpath("//span[normalize-space()='Add Admin']");
-	public static By Name = By.xpath("//input[@id='exampleInputUsername1']");
-	public static By Location = By.xpath("//select[@id='locationSelect']");
-	public static By emailid = By.xpath("//input[@id='exampleInputUsername3']");
-	public static By pwd= By.xpath("//input[@id='exampleInputPassword1']");
 	
-	public static By Scrolldown= By.xpath
-			("//body/div[@class='container-scroller']/div[@class='container-fluid page-body-wrapper']/div[@class='main-panel']/div[@class='content-wrapper']/div[3]/div[1]/div[1]");
 	
-	public static By checkbox = By.xpath("//input[@id='showPasswordCheckbox']");
-	public static By submitbtn= By.xpath("//button[@id='submitButton']");
-	
-	public static By Regsuccess = By.xpath("//button[@type='submit']");
-	public static By MLogout = By.xpath("//p[@class='mb-1 text-white']");
-	public static By MSignout = By.xpath("//a[@class='dropdown-item']");*/
 	
     
 	
@@ -180,6 +314,6 @@ public class PharmacySuperadminPage {
 
 
 
-}
+
 
 	

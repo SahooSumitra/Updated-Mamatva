@@ -3,21 +3,30 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.Mohs10.utility.ListenerClass"/>
-    <listener class-name="com.Mohs10.utility.TestallureListener"/>
   </listeners>
   <test thread-count="5" name="Test_All(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
       <class name="com.Mohs10.TestScripts.Pharmacy_Superadmin">
         <methods>
-          <include name="browserSetup"/>
           <include name="loadConfig"/>
+          <include name="beforeClass"/>
           <include name="methodName"/>
-          <include name="PharmacyLoginTestcase"/>
           <include name="afterSuite"/>
+          <include name="PharmacyLoginTestcase2"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- com.Mohs10.TestScripts.Pharmacy_Superadmin -->
+      <class name="com.Mohs10.Reports.PDFReportTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="beforeClass"/>
+          <include name="PDFreports"/>
+          <include name="methodName"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.Mohs10.Reports.PDFReportTest -->
     </classes>
   </test> <!-- Test_All(failed) -->
 </suite> <!-- Failed suite [Suite] -->

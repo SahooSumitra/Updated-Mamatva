@@ -8,9 +8,11 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -27,6 +29,8 @@ import com.Mohs10.utility.ExtentReport;
 import com.Mohs10.utility.Log;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class StartBrowser {
 	EdgeOptions edgeOptions = new EdgeOptions();
@@ -68,8 +72,8 @@ public class StartBrowser {
 	}
 
 	@Parameters(value = { "browser" })
-	@BeforeClass
-	public void browserSetup(String browserName) throws Throwable {
+	//@BeforeClass
+	/*public void browserSetup(String browserName) throws Throwable {
 
 		// Setup WebDriver for browsers
 		if (browserName.equalsIgnoreCase("chrome")) {
@@ -109,7 +113,17 @@ public class StartBrowser {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		// Set PageLoad TimeOuts
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
-	}
+	}*/
+	
+	@BeforeClass
+	  public void beforeClass() {
+		  WebDriverManager.chromedriver().setup();
+		 // WebDriverManager.firefoxdriver().setup();
+		  //WebDriverManager.edgedriver().setup();
+		  driver = new ChromeDriver();
+		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		  driver.manage().window().maximize();
+	  }
 
 	@AfterClass
 	public void afterClass() {

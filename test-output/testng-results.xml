@@ -2,23 +2,16 @@
 <testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-05T18:31:27 IST" name="Suite" finished-at="2024-01-05T18:32:30 IST" duration-ms="63378">
+  <suite started-at="2024-01-24T13:03:07 IST" name="Suite" finished-at="2024-01-24T13:04:10 IST" duration-ms="63281">
     <groups>
     </groups>
-    <test started-at="2024-01-05T18:31:27 IST" name="Test_All" finished-at="2024-01-05T18:32:30 IST" duration-ms="63378">
+    <test started-at="2024-01-24T13:03:07 IST" name="Test_All" finished-at="2024-01-24T13:04:10 IST" duration-ms="63281">
       <class name="com.Mohs10.Reports.PDFReportTest">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.Mohs10.Reports.PDFReportTest@b83a9be]" started-at="2024-01-05T18:32:06 IST" name="browserSetup" finished-at="2024-01-05T18:32:08 IST" duration-ms="1934" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.Mohs10.Reports.PDFReportTest@28701274]" started-at="2024-01-24T13:03:47 IST" name="beforeClass" finished-at="2024-01-24T13:03:49 IST" duration-ms="1252" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.Mohs10.Reports.PDFReportTest@b83a9be]" started-at="2024-01-05T18:32:08 IST" name="methodName" finished-at="2024-01-05T18:32:08 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.Mohs10.Reports.PDFReportTest@28701274]" started-at="2024-01-24T13:03:49 IST" name="methodName" finished-at="2024-01-24T13:03:49 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,51 +22,44 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method signature="PDFreports()[pri:0, instance:com.Mohs10.Reports.PDFReportTest@b83a9be]" started-at="2024-01-05T18:32:08 IST" name="PDFreports" finished-at="2024-01-05T18:32:30 IST" duration-ms="21903" status="PASS">
+        <test-method signature="PDFreports()[pri:0, instance:com.Mohs10.Reports.PDFReportTest@28701274]" started-at="2024-01-24T13:03:49 IST" name="PDFreports" finished-at="2024-01-24T13:04:10 IST" duration-ms="21017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PDFreports -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Mohs10.Reports.PDFReportTest@b83a9be]" started-at="2024-01-05T18:32:30 IST" name="afterClass" finished-at="2024-01-05T18:32:30 IST" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Mohs10.Reports.PDFReportTest@28701274]" started-at="2024-01-24T13:04:10 IST" name="afterClass" finished-at="2024-01-24T13:04:10 IST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.Mohs10.Reports.PDFReportTest -->
       <class name="com.Mohs10.TestScripts.Pharmacy_Superadmin">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@5c669da8]" started-at="2024-01-05T18:31:26 IST" name="loadConfig" finished-at="2024-01-05T18:31:27 IST" duration-ms="677" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@397fbdb]" started-at="2024-01-24T13:03:06 IST" name="loadConfig" finished-at="2024-01-24T13:03:07 IST" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@5c669da8]" started-at="2024-01-05T18:31:27 IST" name="browserSetup" finished-at="2024-01-05T18:31:32 IST" duration-ms="4714" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@397fbdb]" started-at="2024-01-24T13:03:07 IST" name="beforeClass" finished-at="2024-01-24T13:03:09 IST" duration-ms="1948" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@5c669da8]" started-at="2024-01-05T18:31:32 IST" name="methodName" finished-at="2024-01-05T18:31:32 IST" duration-ms="28" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@397fbdb]" started-at="2024-01-24T13:03:09 IST" name="methodName" finished-at="2024-01-24T13:03:09 IST" duration-ms="18" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.Mohs10.TestScripts.Pharmacy_Superadmin.PharmacyLoginTestcase() throws java.lang.Exception]]>
+                <![CDATA[public void com.Mohs10.TestScripts.Pharmacy_Superadmin.PharmacyLoginTestcase2() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method signature="PharmacyLoginTestcase()[pri:0, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@5c669da8]" started-at="2024-01-05T18:31:32 IST" name="PharmacyLoginTestcase" finished-at="2024-01-05T18:32:05 IST" duration-ms="33620" status="PASS">
+        <test-method signature="PharmacyLoginTestcase2()[pri:2, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@397fbdb]" started-at="2024-01-24T13:03:09 IST" name="PharmacyLoginTestcase2" description="Register Test" finished-at="2024-01-24T13:03:47 IST" duration-ms="38192" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PharmacyLoginTestcase -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@5c669da8]" started-at="2024-01-05T18:32:06 IST" name="afterClass" finished-at="2024-01-05T18:32:06 IST" duration-ms="338" status="PASS">
+        </test-method> <!-- PharmacyLoginTestcase2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@397fbdb]" started-at="2024-01-24T13:03:47 IST" name="afterClass" finished-at="2024-01-24T13:03:47 IST" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@5c669da8]" started-at="2024-01-05T18:32:31 IST" name="afterSuite" finished-at="2024-01-05T18:32:31 IST" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.Mohs10.TestScripts.Pharmacy_Superadmin@397fbdb]" started-at="2024-01-24T13:04:11 IST" name="afterSuite" finished-at="2024-01-24T13:04:11 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

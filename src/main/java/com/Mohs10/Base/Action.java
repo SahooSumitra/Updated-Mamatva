@@ -350,7 +350,7 @@ public class Action extends StartBrowser {
 	public boolean switchToFrameByIndex(WebDriver driver, int index) {
 		boolean flag = false;
 		try {
-			 new WebDriverWait(driver, Duration.ofSeconds(15)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe")));
+			 //new WebDriverWait(driver, Duration.ofSeconds(15)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe")));
 			//new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe")));
 			driver.switchTo().frame(index);
 			flag = true;
@@ -763,13 +763,13 @@ public class Action extends StartBrowser {
 	}
 
 	public static void implicitWait(WebDriver driver, int timeOut) {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
 	public void explicitWait(WebDriver driver, WebElement element, int timeOut) {
 		// WebDriverWait wait = new WebDriverWait(driver,timeOut);
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));// selenium 4.8
-		wait.until(ExpectedConditions.visibilityOf(element));
+		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));// selenium 4.8
+		//wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
 	public static void pageLoadTimeOut(WebDriver driver, int timeOut) {
